@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_back"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TVDay"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/MaxTem"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_below="@+id/TVDay"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/MinTemp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_below="@+id/MaxTem"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TVWind"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_below="@+id/MinTemp"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
